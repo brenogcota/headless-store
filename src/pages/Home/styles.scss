@@ -1,0 +1,50 @@
+.home {
+    padding: 1.5rem;
+    
+    &__banner {
+        object-fit: fill;
+        width: 100%;
+        height: max(30vh, 320px);
+    }
+}
+
+.shelf__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.shelf__grid--item {
+    max-width: 220px;
+}
+
+
+.product {
+    &__image--default, &__image--hover {
+        max-width: 200px;
+    }
+
+    &__image--hover {
+        opacity: 0;
+        display: none;
+    }
+
+    &__card {
+        color: var(--dark);
+        text-decoration: none;
+    }
+
+    &__card:hover {
+        cursor: pointer;
+
+        .product__image--hover {
+            opacity: 1;
+            display: block;
+        }
+    
+        .product__image--default {
+            opacity: 0;
+            display: none;
+        }
+    }
+
+}

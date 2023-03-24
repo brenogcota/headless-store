@@ -1,0 +1,13 @@
+.footer {
+    border-top: 1px solid var(--dark);
+    
+    &__infos {
+        display: flex;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: center;
+        padding: 1.5rem;
+    }
+}
