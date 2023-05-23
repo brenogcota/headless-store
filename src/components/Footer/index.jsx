@@ -6,7 +6,7 @@ export default function Footer() {
         <div className='footer__infos'>
             <ul>
                 <strong>COMPANY INFO</strong>
-                <li>About SHEIN</li>
+                <li>About Store</li>
                 <li>Social Responsibility</li>
                 <li>Fashion Blogger</li>
                 <li>Supply Chain</li>
@@ -21,7 +21,7 @@ export default function Footer() {
                 <li>How To Order</li>
                 <li>How To Track</li>
                 <li>Size Guide</li>
-                <li>SHEIN VIP</li>
+                <li>Store VIP</li>
             </ul>
         </div>
         <div className='footer__bottom'>
